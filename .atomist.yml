@@ -17,3 +17,16 @@ generator:
     - "apps_folder_name": "test"
     - "aem_version": "6.3"
 
+---
+kind: "operation"
+client: "atomist-bot"
+editor:
+  name: "AddHtlMavenPlugin"
+  group: "com.adobe.people.jedelson"
+  artifact: "aem-rugs"
+  version: "0.1.0"
+  origin:
+    repo: "https://github.com/justinedelson/aem-rugs"
+    branch: "master"
+    sha: "4ac8ec7"
+

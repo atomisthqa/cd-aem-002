@@ -112,6 +112,10 @@
                     <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
                 </configuration>
             </plugin>
+        	<plugin>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>htl-maven-plugin</artifactId>
+            </plugin>
         </plugins>
     </build>
     <profiles>
